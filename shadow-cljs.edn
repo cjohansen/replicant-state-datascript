@@ -1,0 +1,8 @@
+{:deps {:aliases [:dev]}
+ :dev-http {8083 ["resources/public" "classpath:public"]}
+ :builds
+ {:app
+  {:target :browser
+   :modules {:main {:init-fn state-datascript.dev/main}}
+   :dev {:output-dir "resources/public/js"}
+   :compiler-options {:externs ["datascript/externs.js"]}}}}
