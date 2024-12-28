@@ -12,3 +12,7 @@ The development build is initialized from [the dev
 namespace](./dev/state_datascript/dev.cljs). There is also a [prod
 namespace](./src/state_datascript/prod.cljs) which could be used as the target
 for a production build.
+
+There is a router setup here as well. Check out the [state-setup
+branch](https://github.com/cjohansen/replicant-state-datascript/tree/state-setup)
+for the version that only has state management.
