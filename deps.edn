@@ -2,6 +2,8 @@
  :deps {org.clojure/clojure {:mvn/version "1.12.0"}
         thheller/shadow-cljs {:mvn/version "2.28.18"}
         no.cjohansen/replicant {:mvn/version "2025.01.28"}
-        datascript/datascript {:mvn/version "1.7.3"}}
+        com.domkm/silk {:mvn/version "0.1.2"}
+        datascript/datascript {:mvn/version "1.7.3"}
+        lambdaisland/uri {:mvn/version "1.19.155"}}
  :aliases
  {:dev {:extra-paths ["dev"]}}}
