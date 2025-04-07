@@ -16,3 +16,8 @@ for a production build.
 There is a router setup here as well. Check out the [state-setup
 branch](https://github.com/cjohansen/replicant-state-datascript/tree/state-setup)
 for the version that only has state management.
+
+## License: MIT
+
+Copyright © 2025 Christian Johansen. Distributed under the [MIT
+License](https://opensource.org/license/mit).
